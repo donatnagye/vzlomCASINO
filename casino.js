@@ -31,6 +31,7 @@ const yes = () => {
     percentage += 3
     if (percentage >= gachiPercentage) {
         const audio2 = document.getElementById('audioPlayer');
+        audio2.volume = 0.5
 
         // Play the audio when the page loads
         audio2.play();
