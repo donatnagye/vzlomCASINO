@@ -31,7 +31,7 @@ let audioI = 0
 const yes = () => {
     
     percentage += 3
-    if (percentage == gachiPercentage) {
+    if (percentage >= gachiPercentage) {
        
         const audio = document.getElementById('audio')
         audio.volume = 1; // Set the volume to maximum (100%)
