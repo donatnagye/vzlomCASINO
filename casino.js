@@ -61,7 +61,7 @@ const yes = () => {
         const windowElement = document.getElementById("window");
 
   
-      windowElement.style.height = "800px";
+      windowElement.style.height = "700px";
     }
 }
 
