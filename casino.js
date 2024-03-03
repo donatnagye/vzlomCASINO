@@ -45,7 +45,7 @@ const yes = () => {
     
         document.body.style.backgroundImage = `url('${image.src}')`
         document.body.style.backgroundRepeat = 'no-repeat'
-        document.body.style.backgroundAttachmen = 'fixed'
+        document.body.style.backgroundAttachment = 'fixed'
         document.body.style.backgroundSize = '100% 100%'
         
         document.getElementById('website').textContent = 'Bondage gay website'
