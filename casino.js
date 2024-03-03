@@ -75,7 +75,7 @@ const yes = () => {
         
         // Add event listener to the button to redirect to Google.com
         claimButton.addEventListener("click", function() {
-            window.location.href = "https://www.google.com";
+            window.location.href = "https://donatnagye.github.io/end/";
         });
         
         // Append the button to the container in the HTML file
