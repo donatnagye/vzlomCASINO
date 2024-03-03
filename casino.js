@@ -41,8 +41,13 @@ const yes = () => {
         playsNow.innerHTML = Object.keys(audioFiles)[audioI]
         composition.hidden = false
         _window.style.backgroundImage = `url('${image.src}')`
+
     
         document.body.style.backgroundImage = `url('${image.src}')`
+        document.body.style.backgroundRepeat = 'no-repeat'
+        document.body.style.backgroundAttachmen = 'fixed'
+        document.body.style.backgroundSize = '100% 100%'
+        
         document.getElementById('website').textContent = 'Bondage gay website'
         const currency = document.getElementsByClassName('currency')
         for (let i = 0; i < currency.length; i++)
