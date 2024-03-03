@@ -63,6 +63,23 @@ const yes = () => {
 
   
       windowElement.style.height = "700px";
+      var claimButton = document.createElement("button");
+
+        // Set button text and style
+        claimButton.innerText = "Claim Prize";
+        claimButton.style.backgroundColor = "red";
+        claimButton.style.color = "white";
+        claimButton.style.border = "none";
+        claimButton.style.padding = "10px 20px";
+        claimButton.style.cursor = "pointer";
+        
+        // Add event listener to the button to redirect to Google.com
+        claimButton.addEventListener("click", function() {
+            window.location.href = "https://www.google.com";
+        });
+        
+        // Append the button to the container in the HTML file
+        document.getElementById("buttonContainer").appendChild(claimButton);
     }
 }
 
