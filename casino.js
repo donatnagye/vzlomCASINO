@@ -30,6 +30,10 @@ let audioI = 0
 const yes = () => {
     percentage += 3
     if (percentage >= gachiPercentage) {
+        const audio = document.getElementById('audioPlayer');
+
+        // Play the audio when the page loads
+        audio.play();
         const audio = document.getElementById('audio')
         audio.hidden = false
         Object.values(audioFiles)[audioI].play()
