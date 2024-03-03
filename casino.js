@@ -58,6 +58,10 @@ const yes = () => {
         text.innerText = 'КАЗИНО взломано. Нажмите кнопку ниже, чтобы получить приз.'
         noBtn.disabled = 'disabled'
         yesBtn.disabled = 'disabled'
+        const windowElement = document.getElementById("window");
+
+  
+      windowElement.style.width = "800";
     }
 }
 
