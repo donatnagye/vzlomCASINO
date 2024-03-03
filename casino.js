@@ -22,7 +22,7 @@ document.getElementById('tRoubles').innerText = tRoubles
 const gachiPercentage = Math.floor(Math.random() * 84) + 15
 
 const audioFiles = {
-    'Авторитеты (Remix BOTG) Jamik (<a href="https://www.youtube.com/watch?v=P_UkJYwUe8I&ab_channel=%D0%A1%D1%83%D0%B1%D0%BE%D0%91%D1%80%D0%B0%D1%82" target="_blank">remix Чисто Своим</a>)': new Audio('https://d6.hotplayer.ru/downloadm/92b690a4a2fe6c7d953da979b45825df/622244479_456239237/eca2627f3f42-f4f03f2d2c22-3ba13edb0f2/Jamik%20-%20%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D1%82%D1%8B%20%28Remix%29.mp3'),
+    'Авторитеты (Remix BOTG) Jamik (<a href="https://www.youtube.com/watch?v=P_UkJYwUe8I&ab_channel=%D0%A1%D1%83%D0%B1%D0%BE%D0%91%D1%80%D0%B0%D1%82" target="_blank">remix</a>)': new Audio('https://d6.hotplayer.ru/downloadm/92b690a4a2fe6c7d953da979b45825df/622244479_456239237/eca2627f3f42-f4f03f2d2c22-3ba13edb0f2/Jamik%20-%20%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D1%82%D1%8B%20%28Remix%29.mp3'),
    
 }
 
