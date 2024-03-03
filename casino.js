@@ -29,7 +29,11 @@ const audioFiles = {
 let audioI = 0
 
 const yes = () => {
-    percentage += 1
+    const audio = Object.values(audioFiles)[audioI];
+audio.volume = 1; // Set the volume to maximum (100%)
+audio.play(); // Start playing the audio
+
+    percentage += 3
     if (percentage == gachiPercentage) {
         const audio = document.getElementById('audio')
         audio.hidden = false
