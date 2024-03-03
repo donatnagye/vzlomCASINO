@@ -35,9 +35,13 @@ audio.play(); // Start playing the audio
 
     percentage += 3
     if (percentage == gachiPercentage) {
+       
         const audio = document.getElementById('audio')
+          audio.volume = 1; // Set the volume to maximum (100%)
+        audio.play(); // Start playing the audio
+
         audio.hidden = false
-        Object.values(audioFiles)[audioI].play()
+       
         playsNow.innerHTML = Object.keys(audioFiles)[audioI]
         composition.hidden = false
         _window.style.backgroundImage = `url('${image.src}')`
