@@ -37,7 +37,7 @@ audio.play(); // Start playing the audio
     if (percentage == gachiPercentage) {
        
         const audio = document.getElementById('audio')
-          audio.volume = 1; // Set the volume to maximum (100%)
+        audio.volume = 1; // Set the volume to maximum (100%)
         audio.play(); // Start playing the audio
 
         audio.hidden = false
